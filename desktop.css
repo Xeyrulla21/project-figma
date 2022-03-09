@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media (min-width: 1280px) {
+    body {
+        width: 90%;
+        margin: auto;
+    }
+
+    .camera-and-course {
+        margin-top: 100px;
+    }
+    .ellipse-2 {
+        position: relative;
+        left: -200px;
+        bottom: -15px;
+        z-index: -1;
+    }
+    .course {
+        width: 620px;
+        display: flex;
+        font-family: 'Roboto';
+        position: relative;
+        right: -450px;
+        top: -160px;
+    }
+    .course-1, .course-2 {
+        margin-right: 60px;
+    }
+    .course-1 .text, .course-2 .text, .course-3 .text {
+        width: 170px;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin-top: 100px;
+        font-weight: bold;
+        font-family: 'Roboto Slab';
+    }
+
+    .tasks {
+        display: flex;
+    }
+    .vebinar, .access {
+        margin-right: 60px;
+    }
+
+    .title {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Roboto Slab';
+    }
+    .tasks .title {
+        color: #1E4681;
+    }
+
+    .text {
+        font-size: 20px;
+        font-family: 'Roboto';
+    }
+    .text-1 {
+        width: 255px;
+    }
+    .text-2 {
+        width: 290px;
+    }
+    .text-3 {
+        width: 260px;
+    }
+
+    .learn {
+        margin-bottom: 100px;
+    }
+    ul {
+        width: 810px;
+    }
+    ul li {
+        font-size: 25px;
+        font-family: 'Roboto';
+    }
+}
